@@ -18,6 +18,11 @@ p {
   margin-bottom: 0;
 }
 
+h1 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
 ul,
 ol {
   margin-top: 0;

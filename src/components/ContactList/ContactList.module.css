@@ -2,7 +2,10 @@
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contactItem {
