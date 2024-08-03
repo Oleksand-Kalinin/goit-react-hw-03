@@ -4,7 +4,8 @@ import { nanoid } from "nanoid";
 import { useId } from "react";
 import * as Yup from "yup";
 
-const phoneRegExp = /^[0-9]{3}-[0-9]{2}-[0-9]{2}$/;
+const phoneRegExp = /\d{3}-\d{2}-\d{2}$/;
+// const phoneRegExp = /(7|8|9)\d{8}$/; //mask ex: 700000000
 const validationFormSchema = Yup.object().shape({
   name: Yup.string()
     .min(2, "Too Short!")
